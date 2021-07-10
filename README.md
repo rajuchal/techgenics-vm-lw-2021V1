@@ -1,5 +1,7 @@
-### Automated Setup & Installation Guide for "Hadoop/Spark/Kafka" Single Node Cluster Environment
-### using light-weight script with MySQL/Cassandra/MongoDB/Confluent
+### Automated Setup & Installation Guide for 
+### "Hadoop/Spark/Kafka/MySQL/Cassandra/MongoDB/Confluent"
+### Single Node Cluster Environment
+### using light-weight script
 #### (Pseudo Distributed mode)
 #### Version- 2021V1
 ##### ==============================================================================
