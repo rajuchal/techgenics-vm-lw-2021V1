@@ -57,7 +57,7 @@
 
 1. Download the script file in Windows
 
-   #####   https://codeload.github.com/rajuchal/techgenics-vm-lw-2021V1/zip/refs/heads/master
+   #####   https://github.com/rajuchal/techgenics-vm-lw-2021V1/archive/refs/heads/master.zip
 
 2. _"techgenics-vm-lw-2021V1-master.zip"_ file will be downloaded , Unzip the file "techgenics-vm-lw-2021V1-master.zip"
    ######  Right click on "techgenics-vm-lw-2021V1-master.zip" -->Select "extract here"
@@ -125,5 +125,6 @@
 #### Installation directory in Linux VM - /home/vagrant/bigdata
 #### Default user name for Windows & Linux VM - vagrant
 #### Default password for Windows & Linux VM - vagrant
+#### Check the installation & configuration guide pdf for detail instructions available in the extracted folder
 
 :+1: **_Happy Clustering_** :shipit:
