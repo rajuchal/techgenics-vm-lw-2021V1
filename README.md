@@ -1,7 +1,6 @@
 ### Automated Setup & Installation Guide for 
 ### "Hadoop/Spark/Kafka/MySQL/Cassandra/MongoDB/Confluent"
-### Single Node Cluster Environment
-### using light-weight script
+### Single Node Cluster Environment using light-weight script
 #### (Pseudo Distributed mode)
 #### Version- 2021V1
 ##### ==============================================================================
@@ -91,11 +90,11 @@
 		10446 NodeManager
 
 ##### ==========================================================================
-##### USE SmarTTY/MobaXTerm/ WinSCP to Connect with the Linux Node fron Windows
+##### USE SmarTTY/MobaXTerm/ WinSCP to Connect with the Linux Node from Windows
 
 ##### ===========================================================================
 
-#### For details installation & setup , check the "Hadoop-light-weight-env-guide.pdf" file.
+#### For details installation & setup , check the pdf file shared in the extracted folder.
 
 ##### =============================================================================
 
