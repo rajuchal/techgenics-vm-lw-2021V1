@@ -1,12 +1,13 @@
-### Automated Setup & Installation Guide for Hadoop Single Node Cluster Environment
-### using light-weight script with Spark/Kafka/Cassandra/MongoDB
+### Automated Setup & Installation Guide for "Hadoop/Spark/Kafka" Single Node Cluster Environment
+### using light-weight script with MySQL/Cassandra/MongoDB/Confluent
 #### (Pseudo Distributed mode)
+#### Version- 2021V1
 ##### ==============================================================================
 
-#### Single Node _Hadoop/Spark/HBase/Kafka/Cassandra/MongoDB_ Cluster on Windows using virtualization
+#### Single Node _Hadoop/Spark/HBase/Kafka/Cassandra/MongoDB/Confluent_ Cluster on Windows using virtualization
 
-Automation Script for creating single node _hadoop/spark/kafka/cassanda/mongodb_ cluster on Windows 
-using Vagrant & Oracle Virtual Box 
+###### Automation Script for creating single node _hadoop/spark/kafka/cassanda/mongodb_ cluster 
+###### on Windows using Vagrant & Oracle Virtual Box 
 
 #### Note :- To run this script, "Virtualization" property should be enabled for the Desktop/Laptop with Admin right
 ##### ==============================================================================
@@ -56,37 +57,36 @@ using Vagrant & Oracle Virtual Box
 
 1. Download the script file in Windows
 
-#####    https://github.com/rajuchal/hadoop-lw-2020V2/archive/master.zip
+   #####   https://codeload.github.com/rajuchal/techgenics-vm-lw-2021V1/zip/refs/heads/master
 
-2. _"hadoop-lw-2020V2-master.zip"_ file will downloaded , Unzip the file "hadoop-lw-2020V2-master.zip"
+2. _"techgenics-vm-lw-2021V1-master.zip"_ file will be downloaded , Unzip the file "techgenics-vm-lw-2021V1-master.zip"
+   ######  Right click on "techgenics-vm-lw-2021V1-master.zip" -->Select "extract here"
+   ######  Rename the extracted folder "techgenics-vm-lw-2021V1-master" to "techgenics-vm-lw-2021V1"
 
-3. Copy the extracted root folder "hadoop-lw-2020V2-master" into C-drive
+3. Copy the extracted root folder "techgenics-vm-lw-2021V1" into C-drive
 
 4. Open the Windows Command Prompt as "Administrator"
 
-5. Change the directory to the extracted folder - "hadoop-lw-2020V2-master" in the Command Prompt
+5. Change the directory to the extracted folder - "hadoop-lw-2021V1-main" in the Command Prompt
 
-6. Run “setup.cmd”
+6. Run "setup.cmd"
 
-##### C:\hadoop-lw-2020V2-master> setup.cmd
+   ##### C:\techgenics-vm-lw-2021V1> setup.cmd
 
-##### ------------- Wait till you get back the Command Prompt
-##### ------------- Depending on the bandwidh total installation may take 45 mins to 1 hr time
+   ##### ------------- Wait till you get back the Command Prompt
+   ##### ------------- Depending on the bandwidh total installation may take 45 mins to 1 hr time
 
 6. After getting back the Command Prompt type "vagrant ssh" to login to Linux Box
 
-##### C:\hadoop-lw-2020V2-master>vagrant ssh
+   ##### C:\techgenics-vm-lw-2021V1>vagrant ssh
 
-##### vagrant@master:~$ jps
-	11538 Jps
-	9716 DataNode
-	9942 SecondaryNameNode
-	10520 Master
-	9528 NameNode
-	10107 ResourceManager
-	10446 NodeManager
-	10750 Worker
-
+   ##### vagrant@master:~$ jps
+		11538 Jps
+		9716 DataNode
+		9942 SecondaryNameNode
+		9528 NameNode
+		10107 ResourceManager
+		10446 NodeManager
 
 ##### ==========================================================================
 ##### USE SmarTTY/MobaXTerm/ WinSCP to Connect with the Linux Node fron Windows
