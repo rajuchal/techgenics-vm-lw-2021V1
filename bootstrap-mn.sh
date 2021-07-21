@@ -103,11 +103,11 @@ wget -q https://downloads.apache.org/hive/hive-2.3.9/apache-hive-2.3.9-bin.tar.g
 
 # Download Pig binaries
 echo "Dowloading Pig"
-wget -q http://www-us.apache.org/dist/pig/pig-0.16.0/pig-0.16.0.tar.gz
+wget -q https://downloads.apache.org/pig/pig-0.16.0/pig-0.16.0.tar.gz
 
 # Download Sqoop
 echo "Dowloading Sqoop"
-wget -q http://mirrors.estointernet.in/apache/sqoop/1.4.7/sqoop-1.4.7.bin__hadoop-2.6.0.tar.gz
+wget -q http://archive.apache.org/dist/sqoop/1.4.7/sqoop-1.4.7.bin__hadoop-2.6.0.tar.gz
 
 
 # Download HBase
