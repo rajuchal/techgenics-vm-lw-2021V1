@@ -112,7 +112,8 @@ wget -q http://archive.apache.org/dist/sqoop/1.4.7/sqoop-1.4.7.bin__hadoop-2.6.0
 
 # Download HBase
 echo "Dowloading HBase"
-wget -q https://downloads.apache.org/hbase/1.6.0/hbase-1.6.0-bin.tar.gz
+wget -q https://downloads.apache.org/hbase/1.7.1/hbase-1.7.1-bin.tar.gz
+
 
 #---------------- Hadoop Stack Software End -------------------------------------------------
 
@@ -189,9 +190,9 @@ echo "Sqoop Extraction Completed "
 
 #Extract HBase 
 echo "HBase Extraction Started "
-tar -xf hbase-1.6.0-bin.tar.gz
-mv hbase-1.6.0 hbase
-rm hbase-1.6.0-bin.tar.gz
+tar -xf hbase-1.7.1-bin.tar.gz 
+mv hbase-1.7.1 hbase
+rm hbase-1.7.1-bin.tar.gz
 #rm /home/vagrant/bigdata/hbase/lib/slf4j-log4j12-1.7.25.jar 
 echo "HBase Extraction Completed "
 
