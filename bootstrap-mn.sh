@@ -93,7 +93,7 @@ mkdir -p /home/vagrant/bigdata/zookeeper
 #---------------- Hadoop Stack Software -------------------------------------------------
 # Download hadoop binaries
 echo "Dowloading Hadoop"
-wget  -q https://downloads.apache.org/hadoop/common/stable2/hadoop-2.10.1.tar.gz
+wget  -q https://downloads.apache.org/hadoop/common/stable2/hadoop-2.10.2.tar.gz
 
 # Download Hive binaries
 echo "Dowloading Hive"
@@ -162,9 +162,9 @@ wget -q https://packages.confluent.io/archive/6.2/confluent-community-6.2.0.tar.
 #=================================================================================================
 echo "Hadoop Extraction Started "
 # Extract hadoop binaries
-tar -xf hadoop-2.10.1.tar.gz
-mv hadoop-2.10.1 hadoop
-rm hadoop-2.10.1.tar.gz
+tar -xf hadoop-2.10.2.tar.gz
+mv hadoop-2.10.2 hadoop
+rm hadoop-2.10.2.tar.gz
 echo "Hadoop Extraction Completed "
 
 echo "Hive Extraction Started "
