@@ -457,7 +457,7 @@ echo " ###### Running sample WordCount Mapreduce Program ##### "
 /home/vagrant/bigdata/hadoop/bin/hdfs dfs -cat /user/vagrant/wordcount/input/README.txt
 
 # Run the wordcount example bundled with the hadoop binaries
-/home/vagrant/bigdata/hadoop/bin/hadoop jar /home/vagrant/bigdata/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-examples-2.10.1.jar wordcount wordcount/input wordcount/output
+/home/vagrant/bigdata/hadoop/bin/hadoop jar /home/vagrant/bigdata/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-examples-2.10.2.jar wordcount wordcount/input wordcount/output
 
 # Verify the output
 /home/vagrant/bigdata/hadoop/bin/hdfs dfs -cat /user/vagrant/wordcount/output/part*
